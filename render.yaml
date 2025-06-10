@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: backend-quiz-biologia
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: DATABASE_URL
+        sync: false # Você configurará isso manualmente na Render
+      - key: PORT
+        value: "3000"
