@@ -1,0 +1,17 @@
+{
+  "name": "eco-aventura-backend",
+  "version": "1.0.0",
+  "description": "Backend para o jogo Eco-Aventura Biológica para gerenciar pontuações.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Roo Code",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.3"
+  }
+}
